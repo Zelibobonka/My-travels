@@ -1,0 +1,1 @@
+import{j as o,L as s}from"./index-d507bdc5.js";const t="_logo_rhs3t_1",l={logo:t};function n(){return o.jsx(s,{to:"/",children:o.jsx("img",{src:"/My-travels/logo.png",alt:"Мои путешествия",className:l.logo})})}export{n as L};
