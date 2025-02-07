@@ -4,7 +4,11 @@ import styles from "./Logo.module.css";
 function Logo() {
   return (
     <Link to="/">
-      <img src="/logo.png" alt="Мои путешествия" className={styles.logo} />
+      <img
+        src="/My-travels/logo.png"
+        alt="Мои путешествия"
+        className={styles.logo}
+      />
     </Link>
   );
 }

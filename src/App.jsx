@@ -21,7 +21,7 @@ function App() {
   return (
     <AuthProvider>
       <CitiesProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/My-travels">
           <Suspense fallback={<SpinnerFullPage></SpinnerFullPage>}>
             <Routes>
               <Route index element={<Homepage />} />

@@ -1,4 +1,3 @@
-// Uses the same styles as Product
 import styles from "./Product.module.css";
 import PageNav from "../components/PageNav";
 
@@ -10,7 +9,7 @@ export default function Product() {
         <div>
           <h2>Просто страница :)</h2>
         </div>
-        <img src="img-2.jpg" alt="Картинка" />
+        <img src="/My-travels/img-2.jpg" alt="Картинка" />
       </section>
     </main>
   );
